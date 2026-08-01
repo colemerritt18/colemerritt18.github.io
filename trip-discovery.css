@@ -1,0 +1,38 @@
+html {
+  font-size: 10px;
+  font-family: "Fredoka", sans-serif;
+  background-color: #033b70
+}
+h1 { 
+  font-size: 40px;
+  text-align: center;
+}
+p,
+li,
+a { font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #add0f4;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #215485;
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+}
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
