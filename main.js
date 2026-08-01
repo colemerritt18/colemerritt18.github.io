@@ -16,10 +16,10 @@ const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/best-trip-mountains.jpeg") {
-    myImage.setAttribute("src", "images/Brazil-Trip.jpg");
+  if (mySrc === "best-trip-mountains.jpeg") {
+    myImage.setAttribute("src", "Brazil-Trip.jpg");
   } else {
-    myImage.setAttribute("src", "images/best-trip-mountains.jpeg");
+    myImage.setAttribute("src", "best-trip-mountains.jpeg");
   }
 });
 
@@ -29,7 +29,7 @@ let myHeading = document.querySelector("h1");
 function setUserName() {
   const myName = prompt("Please enter your name.");
   localStorage.setItem("name", myName);
-  myHeading.textContent = `Mozilla is cool, ${myName}`;
+  myHeading.textContent = `Discover Trips is cool, ${myName}`;
 }
 
 if (!localStorage.getItem("name")) {
